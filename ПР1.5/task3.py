@@ -1,3 +1,6 @@
+# Задание 3. Дан файл numsTask3.txt с целыми числами, вычислите среднее арифметическое
+# элементов расположенных до минимального;
+
 with open("numsTask3.txt", "r") as file:
     numbers = list(map(int, file.read().split()))
 

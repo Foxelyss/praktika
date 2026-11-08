@@ -1,3 +1,5 @@
+# Задание 1. Дан файл numsTask1.txt со словами. Выведите все слова нечетной длины;
+
 with open("numsTask1.txt", "r") as file:
     text = file.read().split()
 

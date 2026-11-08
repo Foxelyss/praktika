@@ -1,3 +1,6 @@
+# Задание 5. Дан файл numsTask5.txt с целыми числами. Вычислите среднее арифметическое
+# элементов расположенных между минимальным и максимальным;
+
 with open("numsTask5.txt", "r") as file:
     numbers = list(map(int, file.read().split()))
 

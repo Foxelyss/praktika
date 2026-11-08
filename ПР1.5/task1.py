@@ -1,3 +1,6 @@
+# Задание 1. Дан файл numsTask1.txt с целыми числами, вычислите произведение элементов
+# расположенных после минимального;
+
 with open("numsTask1.txt", "r") as file:
     numbers = list(map(int, file.read().split()))
 
